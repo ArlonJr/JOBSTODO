@@ -62,7 +62,6 @@ To download the APK : https://expo.dev/accounts/arlonjr/projects/JOBSTODO/builds
 - npm or yarn
 - Expo CLI
 - Android Studio (for Android development)
-- Xcode (for iOS development, macOS only)
 
 ### Installation Steps
 
@@ -87,7 +86,6 @@ To download the APK : https://expo.dev/accounts/arlonjr/projects/JOBSTODO/builds
 
 4. **Run on device/simulator**
    - Press `a` for Android
-   - Press `i` for iOS
    - Scan QR code with Expo Go app on your phone
 
 ## 🔧 Project Structure
@@ -99,7 +97,9 @@ app/
 │   ├── EmptyState.tsx
 │   ├── NoteItem.tsx
 │   ├── NotesList.tsx
-│   └── SearchBar.tsx
+│   └── SearchBar.tsx.
+│   └── TaskItem.tsx
+│   └── TaskList.tsx
 ├── services/            # Business logic services
 │   └── authService.ts
 ├── store/               # Redux store configuration
